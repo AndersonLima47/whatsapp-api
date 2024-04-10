@@ -10,7 +10,7 @@ services:
       - "3000:3000"
     environment:
       - API_KEY=anderson  # OPTIONAL
-      - BASE_WEBHOOK_URL=http://whatsapp-api.com.br/localCallbackExample
+      - BASE_WEBHOOK_URL=https://whatsapp-api-5d3e.onrender.com/localCallbackExample
       #- ENABLE_LOCAL_CALLBACK_EXAMPLE=FALSE # OPTIONAL, NOT RECOMMENDED FOR PRODUCTION
       - MAX_ATTACHMENT_SIZE=5000000 # IN BYTES
       - SET_MESSAGES_AS_SEEN=TRUE # WILL MARK THE MESSAGES AS READ AUTOMATICALLY
