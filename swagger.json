@@ -7,8 +7,8 @@
   },
   "servers": [
     {
-      "url": "",
-      "description": ""
+      "url": "https://whatsapp-api-5d3e.onrender.com",
+      "description": "Prod"
     },
     {
       "url": "http://localhost:3000",
